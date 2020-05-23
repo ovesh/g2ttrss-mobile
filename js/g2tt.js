@@ -319,6 +319,7 @@ function getHeadlines(since) {
     data.feed_id = pref_Feed;
     data.limit = 15;
     data.show_excerpt = 1;
+    data.excerpt_length = 100;
     data.show_content = 1;
     data.include_attachments = 0;
     data.view_mode = pref_ViewMode;
